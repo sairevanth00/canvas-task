@@ -68,3 +68,55 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# 🔄 React Flow Drag-and-Drop Block Editor
+
+This project is an interactive React-based editor built with **React Flow**. It allows users to:
+
+- Drag & drop predefined blocks ("Block A", "Block B") into a canvas.
+- Connect only from **Block A ➝ Block B** (Block B ➝ Block A is disallowed).
+- Right-click on blocks to view a custom context menu.
+- Modular and clean codebase with plain CSS.
+
+---
+
+## 📁 Project Structure
+
+my-reactflow-app/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── BlockPanel.jsx
+│ │ ├── CustomNode.jsx
+│ │ ├── ContextMenu.jsx
+│ │ └── FlowCanvas.jsx
+│ ├── styles.css
+│ └── App.jsx
+├── package.json
+└── README.md
+
+```bash
+git clone https://github.com/your-username/reactflow-block-editor.git
+cd reactflow-block-editor
+
+## 2. Install Dependencies
+
+Make sure you have Node.js and npm installed (Node >= 14 recommended).
+npm install
+If you see an error like react-scripts: not found, install it manually:
+
+npm install react-scripts --save
+
+## ▶️ Running the App
+
+To start the development server:
+
+npm start
+The app will be available at: [http://localhost:3000](http://localhost:3000)
+
+## 🔧 Tech Stack Used
+React
+React Flow
+Plain CSS (No frameworks)
+Functional Components + Hooks;
